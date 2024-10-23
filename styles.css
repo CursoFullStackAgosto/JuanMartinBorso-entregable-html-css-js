@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+:root {
+    --azul: blue;
+    --blanco: aliceblue;
+    --turquesa: aqua;  
+}
+
+body {
+    background: linear-gradient(to bottom,var(--azul),var(--turquesa));
+}
+
+
+.container {
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container .title {
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 3rem;
+    color: rgb(254, 254, 254);
+}
+
+.container .input-task {
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 5px 9px;
+}
+
+.container .send-button {
+    background-color: rgb(131, 125, 252);
+    color: rgb(252, 252, 253);
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 5px 9px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.container .send-button:hover {
+    background-color: rgb(1, 1, 246);
+
+}
+
+ul {
+    list-style: none;
+}
+
